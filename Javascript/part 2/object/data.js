@@ -1,17 +1,6 @@
-let eid=101
-let ename="Rahul"
-let avali=true
-let loc=['wayanad','kerala']
-let emp_details={
-    email:"devi@gmail.com"
+let emp={
+    id:101,
+    name:"Rahul",
+    sal:45000
 }
-
-
-
-document.write(eid)
-document.write(ename)
-document.write(avali)
-document.write(loc)
-document.write("<br>")
-
-
+document.writeln("gm")
