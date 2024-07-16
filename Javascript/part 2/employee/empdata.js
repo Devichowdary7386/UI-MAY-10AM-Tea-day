@@ -12,6 +12,6 @@ for(emp of employees)
                     <td>${emp.sal}</td>
                </tr>`
 
-    //document.getElementById('table_data').innerHTML=rows
+    document.getElementById('table_data').innerHTML=rows
     document.querySelector('.table_data_class').innerHTML=rows
 }
