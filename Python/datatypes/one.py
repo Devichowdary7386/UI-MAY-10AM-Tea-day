@@ -1,0 +1,33 @@
+eid=101
+ename="Rahul"
+esal=45000.00
+avail=True
+c=10+20j
+loc=['wayanad','goa','kerala']
+color=['R','W','B']
+eids={101,102,103}
+emp={
+       'id':101,
+       'name':"Devi"
+       }
+
+b=bytes([100,101,102,103])
+ba=bytearray([100,101,102,103])
+fz=frozenset([100,101,102,103])
+r=range(10)
+def add():
+    pass
+print(type(eid))
+print(type(ename))
+print(type(esal))
+print(type(avail))
+print(type(c))
+print(type(loc))
+print(type(color))
+print(type(emp))
+print(type(eids))
+print(type(b))
+print(type(ba))
+print(type(fz))
+print(type(r))
+print(type(add))
