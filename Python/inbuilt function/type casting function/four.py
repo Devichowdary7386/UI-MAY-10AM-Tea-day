@@ -1,0 +1,5 @@
+a=input("Enter first Number:")
+b=input("Enter second Number:")
+print(a+b)
+print(type(a))
+print(type(b))
