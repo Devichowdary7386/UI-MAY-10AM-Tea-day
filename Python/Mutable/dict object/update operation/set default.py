@@ -1,6 +1,6 @@
 emp={
     'id':101,
-    'name':"Rahul"
+    'name':'Rahul'
 }
-x=emp.setDefault('f_name':'Rahul Gandhi')
+x=emp.setdefault('f_name':'Rahul Gandhi')
 print(x)
