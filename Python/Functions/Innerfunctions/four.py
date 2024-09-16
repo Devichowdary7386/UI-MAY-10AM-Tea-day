@@ -3,8 +3,6 @@ def outer():
     def inner():
         print("Inner Function")
     return inner
-x=outer()
-x()
-x()
-x()
-x()
+inner=outer()
+inner()
+inner()

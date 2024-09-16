@@ -1,7 +1,10 @@
 def outer():
-    print("Outer function")
+    print("Outer Function")
     def inner():
-        print("Inner function")
-    return 100
-value=outer()
-
+        print("Inner Function")
+    return inner
+x=outer()
+x()
+x()
+x()
+x()

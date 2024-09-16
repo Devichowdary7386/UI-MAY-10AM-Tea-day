@@ -1,6 +1,8 @@
 def outer():
-    print("Outer function")
+    print("Outer Function")
     def inner():
-        print("Inner function")
-    inner()
+        print("Inner Function")
+    return inner()
 outer()
+
+
