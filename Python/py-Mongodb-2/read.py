@@ -5,4 +5,4 @@ user_col=db['user']
 #print user id and name
 users_list=user_col.find()
 for user in users_list:
-    print("user id",user)
+    print("user id","name")
